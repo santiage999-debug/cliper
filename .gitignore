@@ -1,0 +1,16 @@
+node_modules/
+dist/
+e2e/*.mp4
+e2e/node_modules
+shots/
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/app/src/main/assets/public/
+android/capacitor-cordova-android-plugins/build/
+*.apk
+*.keystore
+.env*
+e2e/
+harness.html

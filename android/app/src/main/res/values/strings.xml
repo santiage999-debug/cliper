@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Cliper</string>
+    <string name="title_activity_main">Cliper</string>
+    <string name="package_name">com.cliper.app</string>
+    <string name="custom_url_scheme">com.cliper.app</string>
+</resources>

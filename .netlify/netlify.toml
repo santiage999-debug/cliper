@@ -1,0 +1,46 @@
+plugins = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/workspace/cliper-mobile/dist"
+publishOrigin = "ui"
+commandOrigin = "ui"
+command = "npm run build"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[[headers]]
+for = "/Cliper.apk"
+
+[headers.values]
+Content-Type = "application/vnd.android.package-archive"
+Content-Disposition = "attachment; filename=\"Cliper.apk\""
+
+[[headers]]
+for = "/*.wasm"
+
+[headers.values]
+Content-Type = "application/wasm"
+Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/sw.js"
+
+[headers.values]
+Cache-Control = "no-cache"
